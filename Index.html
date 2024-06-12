@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Welcome Anju Stationery</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            width: 20%;
+
+        }
+
+        .icon i {
+            color: navy;
+        }
+
+        .icons {
+            width: 100%;
+            background-color: #bfffff;
+        }
+
+        .display {
+            color: navy;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 50px;
+        }
+
+        .lead {
+            font-family: cursive;
+            font-size: 15px;
+            margin-left: 85px;
+        }
+
+        .h5 {
+            margin-left: 100px;
+            font-size: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="icons">
+        <div class="icon">
+            <h6>Follow Us</h6>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
+        <a class="navbar-brand color-red" href="/"><img style="border-radius: 50%;" src="./StationeryLogo2.png"
+                class="img-fluid  w-25" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./Index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./About.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./Services.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./Services.html">Xerox</a>
+                        <a class="dropdown-item" href="./Services.html">Print Outs</a>
+                        <a class="dropdown-item" href="./Services.html">Book Binding</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./ContactUs.html">ContactUs</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-white my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong> Semester End Sale</strong> you Can Now Print Your Thesis For Only Rs 100.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="container mt-3">
+        <div class="jumbotron">
+            <h1 class="display">Welcome To Anjali Stationery</h1>
+            <p class="lead">it is started 2022-2023 this is provided many services you can buy best product.</p>
+            <hr class="my-4">
+            <p>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class=""></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class=""></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1" class=""></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img style="height: 500px;" class=" w-100"
+                            data-src="holder.js/800x400?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide"
+                            alt="First slide [800x400]"
+                            src="https://img.freepik.com/free-vector/back-school-sale-banner-with-colorful-pencil-brush-scissors-yellow_1314-2513.jpg?size=626&ext=jpg&ga=GA1.1.1464510935.1685001226&semt=ais"
+                            data-holder-rendered="true">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Nature Beauty</h5>
+                            <p>Nothing compares to nature's beauty.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img style="height: 500px;" class=" w-100"
+                            data-src="holder.js/800x400?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide"
+                            alt="Second slide [800x400]"
+                            src="https://img.freepik.com/premium-photo/colorful-school-supplies-white-background_488220-41672.jpg?size=626&ext=jpg&ga=GA1.2.1464510935.1685001226&semt=ais"
+                            data-holder-rendered="true">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Nature Beauty</h5>
+                            <p>Nothing compares to nature's beauty.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img style="height: 500px;" class=" w-100"
+                            data-src="holder.js/800x400?auto=yes&amp;bg=555&amp;fg=333&amp;text=Third slide"
+                            alt="Third slide [800x400]"
+                            src="https://w7.pngwing.com/pngs/9/904/png-transparent-stationery-school-supplies-hawthorne-public-schools-catholic-school-school-stationery-pencil-service-computer-thumbnail.png"
+                            data-holder-rendered="true">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Nature Beauty</h5>
+                            <p>Nothing compares to nature's beauty.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img style="height: 500px;" class=" w-100"
+                            data-src="holder.js/800x400?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide"
+                            alt="Second slide [800x400]"
+                            src="https://w7.pngwing.com/pngs/975/193/png-transparent-office-supplies-paper-office-depot-stationery-material-people-office-business-thumbnail.png"
+                            data-holder-rendered="true">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Nature Beauty</h5>
+                            <p>Nothing compares to nature's beauty.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            </p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg"
+                    href="https://www.google.com/search?q=Gwalior+stationery+shop+old+hicout&biw=1536&bih=842&tbm=lcl&sxsrf=APwXEddH7Ou2Kawk_-y8Mn1WxrA5N4TWLw%3A1687671817777&ei=CdSXZNWML_ac4-EPh-yDoAo&ved=0ahUKEwiVtci5293_AhV2zjgGHQf2AKQQ4dUDCAk&uact=5&oq=Gwalior+stationery+shop+old+hicout&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMyBwghEKABEAoyBwghEKABEAoyBwghEKABEAoyBAghEAo6BAgjECc6BggAEBYQHjoICAAQigUQhgM6BQghEKABOgQIIRAVUPQCWLolYMUqaABwAHgAgAG4AogB3xeSAQYyLTExLjGYAQCgAQHAAQE&sclient=gws-wiz-local#rlfi=hd:;si:7963406503288566604,l,CiZHd2FsaW9yIHN0YXRpb25lcnkgc2hvcCBvbGQgaGlnaCBjb3VydEi15sP1naqAgAhaRBABEAIQAxAEEAUYABgBGAIYAxgEGAUiJmd3YWxpb3Igc3RhdGlvbmVyeSBzaG9wIG9sZCBoaWdoIGNvdXJ0KgQIAxABkgEQc3RhdGlvbmVyeV9zdG9yZaoBfgoJL20vMDFjbmRiEAEqIiIec3RhdGlvbmVyeSBzaG9wIG9sZCBoaWdoIGNvdXJ0KAAyHxABIhveU7uMe8_I4SFTfrZSReK7f3xLV5PbzGvyeGIyKhACIiZnd2FsaW9yIHN0YXRpb25lcnkgc2hvcCBvbGQgaGlnaCBjb3VydA,y,cS9pX5DT3Jg;mv:[[26.310950421908004,78.23389467622069],[26.09933004593494,77.8507464828613]]"
+                    target="_blank" role="button">
+                    View on Google Map</a>
+            </p>
+        </div>
+    </div>
+    <div class="container mt-6">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img class="rounded-circle"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaU3EL__YGl-BzTGHE769By4B3YC-TvV11KQGB9E1fUwixLhhHAxBl8gGK10S7Uq95ZxU&usqp=CAU"
+                    alt="Generic placeholder image" width="140" height="140">
+                <h2>Buy Best Crayons</h2>
+                <p style="text-align: left;">A crayon (or wax pastel) is br a stick of pigmented wax used for writing or
+                    drawing. Wax crayons differ from pastels, in which the pigment is mixed with a dry binder such as
+                    gum arabicA crayon or wax pastel is a stick of pigmented wax . </p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div>
+            <div class="col-md-4  text-center">
+                <img class="rounded-circle"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGoQ1YZbNoPA-6TdvyxmI3pM25C4S34ze0mNox2B4AnGrbAfuYnFMS-lgQjRCj37Rz-0&usqp=CAU"
+                    alt="Generic placeholder image" width="140" height="140">
+                <h2>Buy Note Books</h2>
+                <p style="text-align: left;">The earliest form of notebook was the wax tablet, which was used as a
+                    reusable and portable writing surface in classical antiquity and throughout the Middle Ages.[1] As
+                    paper became more readily available . </p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div>
+            <div class="col-md-4  text-center">
+                <img class="rounded-circle"
+                    src="https://media.istockphoto.com/id/153499035/photo/back-to-school-painting-supplies.jpg?s=612x612&w=0&k=20&c=H0ncaaHoVZQSBe-MOhOEU7IhGPYC4QzwBrnzwmn-m-M="
+                    alt="Generic placeholder image" width="140" height="140">
+                <h2>Art & Craft Material</h2>
+                <p style="text-align: left;">There are many types of arts and crafts using lots of different types of
+                    materials such as wood, leather, fabrics, clay, recycled paper, hemp twine, natural eco-friendly
+                    nuts, seeds, buttons, and plastic.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div style="background-color: #bfffff;" class="container-fluid">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4 mt-3">
+                    <h5><ul> Anjali Stationery</ul></h5>
+                    <p>Originally, the term 'stationery' referred to all products sold by a stationer,
+                        whose
+                        name indicated that his book shop was on a fixed spot This was usually somewhere near a
+                        university, and permanent, while medieval trading was mainly carried on by itinerant
+                        peddlers</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 mt-3">
+                    <h5> <ul>Our Services</ul></h5>
+                    <ul class="list-unstyled quick-links mt-3">
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa fa-angle-double-right"></i>Xerox</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Print
+                                Outs</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Book
+                                Binding</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get
+                                Started</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 mt-3">
+                    <h5> <ul>Contact</ul></h5>
+                    <ul style="justify-content: space-evenly;" class="list-unstyled quick-links">
+                        <li><a class="conts" href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa-solid fa-location-dot cont"></i>Gwalior Madhya Pradesh</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa-solid fa-phone"></i>0751-883-9265</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa-solid fa-envelope"></i>AnjaliStationery@gmail.com</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa-solid fa-globe"></i>AnjaliStationery.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa-brands fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa-brands fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa-brands fa-google"></i></a></li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p style="color: black;"><a href="#"> Welcome To Anjali Stationery</a> [ it is Started 2022-2023 this is provided
+                        many services you can buy best product ]</p>
+                    <p class="h6"><a class="text-green ml-2" href="./Index.html"
+                            target="_blank">www.anjalistationery.com</a></p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
